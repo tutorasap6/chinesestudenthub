@@ -1,0 +1,216 @@
+############# English navigation ##############
+
+
+[[main]]
+weight = 3
+name = "Company"
+hasChildren = true
+
+[[main]]
+weight = 1
+parent = "Company"
+name = "About Us"
+url = "about/"
+
+[[main]]
+weight = 1
+parent = "Company"
+name = "How it Works"
+url = "how-it-works/"
+
+[[main]]
+weight = 2
+parent = "Company"
+name = "FAQ"
+url = "faqs/"
+
+[[main]]
+weight = 3
+parent = "Company"
+name = "Terms & Conditions"
+url = "tnc/"
+
+[[main]]
+weight = 4
+parent = "Company"
+name = "Money Back"
+url = "money-back/"
+
+[[main]]
+weight = 5
+parent = "Company"
+name = "Revision Policy"
+url = "revision-policy/"
+
+[[main]]
+weight = 6
+parent = "Company"
+name = "Privacy Policy"
+url = "privacy-policy/"
+
+[[main]]
+weight = 7
+parent = "Company"
+name = "Testimonials"
+url = "testimonials/"
+
+
+[[main]]
+name = "Pricing"
+url = "pricing/"
+weight = 6
+
+[[main]]
+weight = 7
+name = "Services"
+hasChildren = true
+
+
+  [[main]]
+  parent = "Services"
+  name = "Team"
+  url = "team/"
+  weight = 11
+
+  [[main]]
+  parent = "Services"
+  name = "Career"
+  url = "career/"
+  weight = 13
+
+  [[main]]
+  parent = "Services"
+  name = "Career Single"
+  url = "career/digital-marketing-paid-media-manager/"
+  weight = 15
+
+  [[main]]
+  parent = "Services"
+  name = "Blog Details"
+  url = "blog/post-5/"
+  weight = 17
+
+
+
+  
+[[main]]
+name = "Contact Us"
+url = "contact/"
+weight = 8
+
+
+
+### footer menus
+# footer_menu_1
+[[footer_menu_1]]
+name = "Product 01"
+url = "#!"
+weight = 1
+
+[[footer_menu_1]]
+name = "Example Product 02"
+url = "#!"
+weight = 2
+
+[[footer_menu_1]]
+name = "Example Product 03"
+url = "#!"
+weight = 3
+
+[[footer_menu_1]]
+name = "Example Product 04"
+url = "#!"
+weight = 4
+
+
+# footer_menu_2
+[[footer_menu_2]]
+name = "Logo & Branding"
+url = "#!"
+weight = 1
+
+[[footer_menu_2]]
+name = "Pay-Per-Click"
+url = "#!"
+weight = 2
+
+[[footer_menu_2]]
+name = "Website Design"
+url = "#!"
+weight = 3
+
+[[footer_menu_2]]
+name = "App Design"
+url = "#!"
+weight = 4
+
+[[footer_menu_2]]
+name = "SEO Optimization"
+url = "#!"
+weight = 5
+
+
+# footer_menu_3
+[[footer_menu_3]]
+name = "Contact"
+url = "contact/"
+weight = 1
+
+[[footer_menu_3]]
+name = "Privacy Policy"
+url = "#!"
+weight = 2
+
+[[footer_menu_3]]
+name = "Terms & Conditions"
+url = "#!"
+weight = 3
+
+
+# footer_menu_4
+[[footer_menu_4]]
+name = "How It Works"
+url = "#!"
+weight = 1
+
+[[footer_menu_4]]
+name = "Features"
+url = "#!"
+weight = 2
+
+[[footer_menu_4]]
+name = "Pricing 1"
+url = "pricing/"
+weight = 3
+
+[[footer_menu_4]]
+name = "Pricing 2"
+url = "#!"
+weight = 4
+
+
+# footer_menu_5
+[[footer_menu_5]]
+name = "Author"
+url = "author/awab-husameldin/"
+weight = 1
+
+[[footer_menu_5]]
+name = "Blog"
+url = "blog/"
+weight = 2
+
+[[footer_menu_5]]
+name = "Blog Details"
+url = "blog/post-1/"
+weight = 3
+
+[[footer_menu_5]]
+name = "Career"
+url = "career/"
+weight = 4
+
+[[footer_menu_5]]
+name = "Career Single"
+url = "career/digital-marketing-paid-media-manager/"
+weight = 5
