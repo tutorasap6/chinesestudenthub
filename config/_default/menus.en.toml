@@ -98,6 +98,11 @@ name = "Contact Us"
 url = "contact/"
 weight = 8
 
+[[main]]
+name = "Blog"
+url = "blog/"
+weight = 9
+
 
 
 ### footer menus

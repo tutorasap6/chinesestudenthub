@@ -1,17 +1,17 @@
 ---
 # banner
 banner:
-  subtitle: "We Are Delta"
-  title: "get fastest loan with <br> smart way A seating home"
+  subtitle: "Online class assistance."
+  title: "Hire Someone to Take My Online Class Online Class Assistance"
   description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <br> eirmod tempor invidunt ut labore et dolore magna aliquyam erat"
   button:
     enable: true
-    label: "Get started now"
+    label: "Get a Free Quote"
     icon: "fas fa-arrow-right"
     link: "contact/"
   video_button:
     enable: true
-    label: "Watch demo"
+    label: "How it works"
     video_url: "https://www.youtube.com/embed/dyZcRRWiuuw"
   
   image: "images/banner-home.png"

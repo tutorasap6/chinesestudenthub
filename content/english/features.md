@@ -5,10 +5,10 @@ draft: false
 layout: "features"
 
 features:
-  subtitle: "Features of Delta"
-  title: "eaving them less time to The <br> check out competitors <br> built The into."
+  subtitle: "Lorem ipsum dolor sit amt ita hwrweet, conse ctetur adipsiscing elit. Purus, done rfec nunc eros"
+  title: "Why Choose Us"
   button:
-    enable: true
+    enable: false
     label: "View All Features"
     icon: "fas fa-arrow-right"
     link: "#!"

@@ -52,9 +52,10 @@
   </div>
 </section>
 
-{{if .Params.brands.enable}}
+{{/*{{if .Params.brands.enable}}
 {{ partial "brands-slider.html" . }}
-{{end}}
+{{end}} */}}
+<br>
 
 {{if .Params.features.enable}}
 {{with site.GetPage (string .Params.features.section)}}
