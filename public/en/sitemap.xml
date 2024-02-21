@@ -15,6 +15,9 @@
                 href="/"
                 />
   </url><url>
+    <loc>/subjects/hsm-543-health-finance/</loc>
+    <lastmod>2024-02-06T15:56:19+00:00</lastmod>
+  </url><url>
     <loc>/subjects/hsm-543-health-services-finance/</loc>
     <lastmod>2024-02-06T15:56:19+00:00</lastmod>
   </url><url>
@@ -328,6 +331,8 @@
                 hreflang="en-us"
                 href="/elements/"
                 />
+  </url><url>
+    <loc>/faqs/</loc>
   </url><url>
     <loc>/features/</loc>
     <xhtml:link
