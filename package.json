@@ -1,0 +1,27 @@
+{
+  "name": "chinesestudenthub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tutorasap6/chinesestudenthub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tutorasap6/chinesestudenthub/issues"
+  },
+  "homepage": "https://github.com/tutorasap6/chinesestudenthub#readme",
+  "dependencies": {
+    "tinacms": "^1.5.28"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.5.39",
+    "@types/node": "^20.11.19"
+  }
+}
