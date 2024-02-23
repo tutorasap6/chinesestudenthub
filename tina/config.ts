@@ -29,23 +29,105 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
-        path: "content/posts",
+        name: "home",
+        label: "Home Page",
+        path: "content/english",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "*_index*",
+        },
+        
         fields: [
           {
-            type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
-            required: true,
+            type: "object",
+            name: "banner",
+            label: "Home Page",
+            fields: [
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+                isTitle: true,
+                required: true,
+              },
+              {
+                type: "string",
+                name: "subtitle",
+                label: "Subtitle",
+              },
+              {
+                type: "string",
+                name: "description",
+                label: "description",
+              },
+              
+              {
+                type: "object",
+                name: "button",
+                label: "Quote button",
+                fields: [
+    
+                  {
+                    type: "boolean",
+                    name: "enable",
+                    label: "Enable Section",
+                  },
+                  {
+                    type: "string",
+                    name: "label",
+                    label: "Quote button label",
+                  },
+                  {
+                    type: "string",
+                    name: "icon",
+                    label: "icon",
+                  },
+                  {
+                    type: "string",
+                    name: "link",
+                    label: "icon",
+                  },
+                  
+                ],
+              
+              },
+
+              {
+                type: "object",
+                name: "video_button",
+                label: "Video button",
+                fields: [
+    
+                  {
+                    type: "boolean",
+                    name: "enable",
+                    label: "Enable Section",
+                  },
+                  {
+                    type: "string",
+                    name: "label",
+                    label: "label",
+                  },
+                  {
+                    type: "string",
+                    name: "video_url",
+                    label: "Video URL",
+                  },
+                  
+                  
+                ],
+              
+              },
+              // Add other banner fields as needed
+            ],
+            
           },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
-          },
+         
         ],
       },
     ],
