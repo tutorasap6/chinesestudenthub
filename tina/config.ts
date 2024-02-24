@@ -403,6 +403,177 @@ export default defineConfig({
 
 
       },
+
+      //
+
+      {
+        name: "subjects",
+        label: "Subjects",
+        path: "content/english/subjects",
+        ui: {
+          allowedActions: {
+            create: true,
+            delete: true,
+          },
+        },
+
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+            description: "Enter the meta description",
+          },
+          {
+            type: "datetime",
+            name: "date",
+            label: "Publish Date",
+          },
+
+          {
+            type: "string",
+            name: "subject",
+            label: "subject ",
+            description: "Example: NR 222",
+            required: true,
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true, 
+          },
+        ],
+      },
+
+      // How it works
+
+      {
+        name: "how_it_works",
+        label: "How It Works",
+        path: "content/english",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "how*",
+        },
+        fields: [
+          {
+            type: "object",
+            name: "banner",
+            label: "Banner",
+            fields: [
+              {
+                type: "string",
+                name: "subtitle",
+                label: "Subtitle",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "string",
+                name: "description",
+                label: "Description",
+              },
+              {
+                type: "object",
+                name: "button",
+                label: "Button",
+                fields: [
+                  {
+                    type: "boolean",
+                    name: "enable",
+                    label: "Enable Button",
+                  },
+                  {
+                    type: "string",
+                    name: "label",
+                    label: "Button Label",
+                  },
+                  {
+                    type: "string",
+                    name: "icon",
+                    label: "Button Icon",
+                  },
+                  {
+                    type: "string",
+                    name: "link",
+                    label: "Button Link",
+                  },
+                ],
+              },
+              {
+                type: "string",
+                name: "image",
+                label: "Banner Image",
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "work_process",
+            label: "Work Process",
+            fields: [
+              {
+                type: "boolean",
+                name: "enable",
+                label: "Enable Section",
+              },
+              {
+                type: "string",
+                name: "subtitle",
+                label: "Subtitle",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "object",
+                name: "process_item",
+                label: "Process Items",
+                itemProps: (item) => ({
+                  label: item.title, // Use the name
+                }),
+                list:true,
+                fields: [
+                  {
+                    type: "string",
+                    name: "title",
+                    label: "Title",
+                  },
+                  {
+                    type: "string",
+                    name: "image",
+                    label: "Image",
+                  },
+                  {
+                    type: "string",
+                    name: "content",
+                    label: "Content",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      
     ],
   },
 });
