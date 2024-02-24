@@ -16,7 +16,7 @@ banner:
   #image: "images/banner-home.png"
 # brands
 brands:
-  enable: true
+  enable: false
   title: "150M+ users trusted Delta worldwide"
   images: 
   - "images/clients/01.png"
