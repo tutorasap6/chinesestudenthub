@@ -153,6 +153,25 @@ export default defineConfig({
             ],
 
           },
+
+          {
+            type: "object",
+            name: "features",
+            label: "features section",
+            fields: [
+              {
+                type: "boolean",
+                name: "enable",
+                label: "Enable Section",
+              },
+              {
+                type: "string",
+                name: "section",
+                label: "features",
+              },
+              // Add other fields specific to the call_to_action section
+            ],
+          },
           // fun facts
 
           {

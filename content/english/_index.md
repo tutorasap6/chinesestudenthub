@@ -25,9 +25,9 @@ brands:
   - "images/clients/04.png"
   - "images/clients/05.png"
 # features
-#features:
-  #enable: true
-  #section: "features"
+features:
+  enable: true
+  section: "features"
 # fun facts
 fun_facts:
   enable: true
