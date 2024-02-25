@@ -488,6 +488,22 @@ export default defineConfig({
           include: "how*",
         },
         fields: [
+
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+          },
+          {
+            type: "string",
+            name: "layout",
+            label: "Default Value- DO NOT CHANGE",
+          },
           {
             type: "object",
             name: "banner",
