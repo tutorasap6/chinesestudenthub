@@ -1,5 +1,5 @@
 ---
-title: "Our Commitment to Your Privacy"
+title: "Our Commitment - Your Privacy"
 description: "this is meta description"
 draft: false
 ---
