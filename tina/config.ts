@@ -1096,7 +1096,149 @@ export default defineConfig({
         ],
       },
 
+      // terms 
+
+      {
+        name: "terms",
+        label: "Terms & Conditions Page",
+        path: "content/english",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "tnc",
+        },
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+          },
+         
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true, 
+          },
+        ],
+      },
+
+      // money back 
+
+      {
+        name: "Money_Back",
+        label: "Money Back Page",
+        path: "content/english",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "money-back",
+        },
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+          },
+         
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true, 
+          },
+        ],
+      },
       
+      // Revision Policy
+
+      {
+        name: "Revision_Policy",
+        label: "Revision Policy",
+        path: "content/english",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "revision-policy",
+        },
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+          },
+         
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true, 
+          },
+        ],
+      },
+
+      // Privacy Policy
+
+      {
+        name: "Privacy_Policy",
+        label: "Privacy Policy",
+        path: "content/english",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "privacy-policy",
+        },
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+          },
+         
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true, 
+          },
+        ],
+      },
     ],
   },
 });
