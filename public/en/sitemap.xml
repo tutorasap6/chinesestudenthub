@@ -370,6 +370,10 @@
                 href="/author/joseph-gonzalez/"
                 />
   </url><url>
+    <loc>/money-back/</loc>
+  </url><url>
+    <loc>/privacy-policy/</loc>
+  </url><url>
     <loc>/team/</loc>
     <xhtml:link
                 rel="alternate"
@@ -394,6 +398,8 @@
                 href="/pricing/"
                 />
   </url><url>
+    <loc>/revision-policy/</loc>
+  </url><url>
     <loc>/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -405,5 +411,7 @@
                 hreflang="en-us"
                 href="/tags/"
                 />
+  </url><url>
+    <loc>/tnc/</loc>
   </url>
 </urlset>
