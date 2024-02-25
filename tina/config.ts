@@ -1239,6 +1239,194 @@ export default defineConfig({
           },
         ],
       },
+
+      // Pricing 
+
+      {
+        name: "pricing",
+        label: "Pricing Page",
+        path: "content/english",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "pricing",
+        },
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+          },
+          
+          {
+            type: "string",
+            name: "layout",
+            label: "Layout",
+            description: "It is Default value - DO NOT CHANGE"
+          },
+          {
+            type: "object",
+            name: "pricing",
+            label: "Pricing",
+            fields: [
+              {
+                type: "string",
+                name: "subtitle",
+                label: "Subtitle",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "pricing_card",
+            label: "Pricing Cards",
+            itemProps: (item) => ({
+              label: item.name, // Use the name
+            }),
+            list:true,
+            
+              fields: [
+                {
+                  type: "string",
+                  name: "name",
+                  label: "Name",
+                },
+                {
+                  type: "boolean",
+                  name: "populer",
+                  label: "Popular",
+                },
+                {
+                  type: "string",
+                  name: "content",
+                  label: "Content",
+                },
+                {
+                  type: "string",
+                  name: "currency",
+                  label: "Currency",
+                },
+                {
+                  type: "string",
+                  name: "price",
+                  label: "Price",
+                },
+                {
+                  type: "string",
+                  name: "buy_now_btn_label",
+                  label: "Buy Now Button Label",
+                },
+                {
+                  type: "string",
+                  name: "buy_now_btn_link",
+                  label: "Buy Now Button Link",
+                },
+                
+                {
+                  type: "rich-text",
+                  name: "features",
+                  label: "Features",
+                  isBody: true,
+                },
+              ],
+            
+          },
+          {
+            type: "object",
+            name: "faq",
+            label: "FAQ",
+            fields: [
+              {
+                type: "boolean",
+                name: "enable",
+                label: "Enable",
+              },
+              {
+                type: "string",
+                name: "subtitle",
+                label: "Subtitle",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "string",
+                name: "description",
+                label: "Description",
+              },
+              {
+                type: "object",
+                name: "button",
+                label: "Button",
+                fields: [
+                  {
+                    type: "boolean",
+                    name: "enable",
+                    label: "Enable",
+                  },
+                  {
+                    type: "string",
+                    name: "label",
+                    label: "Label",
+                  },
+                  {
+                    type: "string",
+                    name: "icon",
+                    label: "Icon",
+                  },
+                  {
+                    type: "string",
+                    name: "link",
+                    label: "Link",
+                  },
+                ],
+              },
+              {
+                type: "object",
+                name: "faq_list",
+                label: "FAQ List",
+                itemProps: (item) => ({
+                  label: item.title, // Use the name
+                }),
+                list:true,
+              
+                  
+                  fields: [
+                    {
+                      type: "string",
+                      name: "title",
+                      label: "Title",
+                    },
+                    {
+                      type: "string",
+                      name: "content",
+                      label: "Content",
+                    },
+                  ],
+                
+              },
+            ],
+          },
+        ],
+      },
+
+
     ],
   },
 });
