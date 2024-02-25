@@ -592,6 +592,383 @@ export default defineConfig({
           },
         ],
       },
+
+      // about page 
+
+      {
+        name: "about",
+        label: "About Page",
+        path: "content/english",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "about",
+        },
+        fields: [
+
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+          },
+          {
+            type: "string",
+            name: "layout",
+            label: "Default Value- DO NOT CHANGE",
+          },
+          {
+            type: "object",
+            name: "banner",
+            label: "Banner",
+            fields: [
+              {
+                type: "string",
+                name: "subtitle",
+                label: "Subtitle",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "string",
+                name: "description",
+                label: "Description",
+              },
+              {
+                type: "object",
+                name: "button",
+                label: "Button",
+                fields: [
+                  {
+                    type: "boolean",
+                    name: "enable",
+                    label: "Enable Button",
+                  },
+                  {
+                    type: "string",
+                    name: "label",
+                    label: "Button Label",
+                  },
+                  {
+                    type: "string",
+                    name: "icon",
+                    label: "Button Icon",
+                  },
+                  {
+                    type: "string",
+                    name: "link",
+                    label: "Button Link",
+                  },
+                ],
+              },
+              {
+                type: "string",
+                name: "image",
+                label: "Banner Image",
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "brands",
+            label: "Brands",
+            fields: [
+              {
+                type: "boolean",
+                name: "enable",
+                label: "Enable Section",
+              },
+              // Add other fields specific to the brands section
+            ],
+          },
+          {
+            type: "object",
+            name: "featured_testimonial",
+            label: "Featured Testimonial",
+            fields: [
+              {
+                type: "boolean",
+                name: "enable",
+                label: "Enable Section",
+              },
+              {
+                type: "string",
+                name: "author_image",
+                label: "Author Image",
+              },
+              {
+                type: "string",
+                name: "review",
+                label: "Review",
+              },
+              {
+                type: "string",
+                name: "author_info",
+                label: "Author Information",
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "about_info",
+            label: "About Info",
+            fields: [
+              {
+                type: "boolean",
+                name: "enable",
+                label: "Enable Section",
+              },
+              {
+                type: "string",
+                name: "image",
+                label: "image",
+              },
+              {
+                type: "string",
+                name: "subtitle",
+                label: "subtitle",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "title",
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "features_box",
+            label: "Features Box",
+            fields: [
+              {
+                type: "boolean",
+                name: "enable",
+                label: "Enable Section",
+              },
+              {
+                type: "object",
+                name: "features_box_item",
+                label: "Features Box Items",
+                itemProps: (item) => ({
+                  label: item.title, // Use the name
+                }),
+                list:true,
+                fields: [
+                  {
+                    type: "string",
+                    name: "icon",
+                    label: "Icon",
+                  },
+                  {
+                    type: "string",
+                    name: "title",
+                    label: "Title",
+                  },
+                  {
+                    type: "string",
+                    name: "content",
+                    label: "Content",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "image_and_content_block",
+            label: "Image and Content Block",
+            fields: [
+              {
+                type: "boolean",
+                name: "enable",
+                label: "Enable Section",
+              },
+              {
+                type: "string",
+                name: "subtitle",
+                label: "subtitle",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "title",
+              },
+              {
+                type: "string",
+                name: "image",
+                label: "image",
+              },
+              {
+                type: "string",
+                name: "content_position",
+                label: "content_position",
+              },
+              {
+                type: "string",
+                name: "content",
+                label: "content",
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "customer_info",
+            label: "Customer Info",
+            fields: [
+              {
+                type: "boolean",
+                name: "enable",
+                label: "Enable Section",
+              },
+              {
+                type: "string",
+                name: "subtitle",
+                label: "subtitle",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "title",
+              },
+              {
+                type: "object",
+                name: "block",
+                label: "block",
+                itemProps: (item) => ({
+                  label: item.title, // Use the name
+                }),
+                list:true,
+                fields: [
+                  
+                  {
+                    type: "string",
+                    name: "icon",
+                    label: "icon",
+                  },
+                  {
+                    type: "string",
+                    name: "title",
+                    label: "title",
+                  },
+                  {
+                    type: "string",
+                    name: "content",
+                    label: "content",
+                  },
+                  // Add other fields specific to the our_peoples section
+                ],
+              },
+              
+            ],
+          },
+          {
+            type: "object",
+            name: "our_peoples",
+            label: "Our Peoples",
+            
+            fields: [
+              {
+                type: "boolean",
+                name: "enable",
+                label: "Enable Section",
+              },
+              {
+                type: "string",
+                name: "subtitle",
+                label: "subtitle",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "title",
+              },
+              {
+                type: "object",
+                name: "lists",
+                label: "lists",
+                itemProps: (item) => ({
+                  label: item.name, // Use the name
+                }),
+                list:true,
+                fields: [
+                  {
+                    type: "string",
+                    name: "image",
+                    label: "image",
+                  },
+                  {
+                    type: "string",
+                    name: "name",
+                    label: "name",
+                  },
+                  {
+                    type: "string",
+                    name: "designation",
+                    label: "designation",
+                  },
+                  // Add other fields specific to the career section
+                ],
+              },
+              // Add other fields specific to the our_peoples section
+            ],
+          },
+          {
+            type: "object",
+            name: "career",
+            label: "Career",
+            fields: [
+              {
+                type: "boolean",
+                name: "enable",
+                label: "Enable Section",
+              },
+             
+              {
+                type: "string",
+                name: "subtitle",
+                label: "subtitle",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "title",
+              },
+              {
+                type: "string",
+                name: "content",
+                label: "content",
+              },
+              
+              // Add other fields specific to the career section
+            ],
+          },
+          {
+            type: "object",
+            name: "call_to_action",
+            label: "Call to Action",
+            fields: [
+              {
+                type: "boolean",
+                name: "enable",
+                label: "Enable Section",
+              },
+              // Add other fields specific to the call_to_action section
+            ],
+          },
+        ],
+      },
+
       
     ],
   },
