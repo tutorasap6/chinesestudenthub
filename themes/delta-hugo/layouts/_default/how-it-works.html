@@ -45,6 +45,7 @@
 </section>
 
 {{with .Params.work_process}}
+{{if .enable}}
 <section class="section pb-0">
   <div class="container container-delta">
     <div class="row justify-content-center text-center">
@@ -81,8 +82,9 @@
   </div>
 </section>
 {{end}}
+{{end}}
 
-{{with site.GetPage "home-2" }}
+
 {{with .Params.image_and_content_block}}
 {{if .enable}}
 <section class="section pb-0">
@@ -109,7 +111,7 @@
   </div>
 </section>
 {{end}}
-{{end}}
+
 
 {{with .Params.slider_and_content_block}}
 {{if .enable}}
@@ -149,6 +151,6 @@
 {{end}}
 {{end}}
 
-{{ partial "call-to-action-2.html" . }}
+{{ partial "call-to-action.html" . }}
 
 {{ end }}

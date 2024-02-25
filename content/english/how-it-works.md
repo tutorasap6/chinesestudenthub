@@ -16,7 +16,7 @@ banner:
   image: "images/banner-how-it-works.png"
 # work_process
 work_process:
-  enable: false
+  enable: true
   subtitle: "Work process of Delta"
   title: "The process of how Delta works"
   process_item:
