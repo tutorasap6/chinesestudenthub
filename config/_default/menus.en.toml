@@ -48,11 +48,6 @@ parent = "Company"
 name = "Privacy Policy"
 url = "privacy-policy/"
 
-[[main]]
-weight = 7
-parent = "Company"
-name = "Testimonials"
-url = "testimonials/"
 
 
 [[main]]

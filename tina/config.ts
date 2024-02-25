@@ -502,7 +502,8 @@ export default defineConfig({
           {
             type: "string",
             name: "layout",
-            label: "Default Value- DO NOT CHANGE",
+            label: "layout",
+            description: "It is default value - DO NOT CHANGE",
           },
           {
             type: "object",
@@ -639,7 +640,8 @@ export default defineConfig({
           {
             type: "string",
             name: "layout",
-            label: "Default Value- DO NOT CHANGE",
+            label: "layout",
+            description: "It is default value - DO NOT CHANGE",
           },
           {
             type: "object",
@@ -980,6 +982,115 @@ export default defineConfig({
                 label: "Enable Section",
               },
               // Add other fields specific to the call_to_action section
+            ],
+          },
+        ],
+      },
+
+      // faq
+
+      {
+        name: "faq",
+        label: "FAQ Page",
+        path: "content/english",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "faqs",
+        },
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+          },
+          {
+            type: "string",
+            name: "layout",
+            label: "Layout",
+          },
+          {
+            type: "object",
+            name: "faq",
+            label: "FAQ",
+            fields: [
+              {
+                type: "boolean",
+                name: "enable",
+                label: "Enable Section",
+              },
+              {
+                type: "string",
+                name: "subtitle",
+                label: "Subtitle",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "string",
+                name: "description",
+                label: "Description",
+              },
+              {
+                type: "object",
+                name: "button",
+                label: "Button",
+                fields: [
+                  {
+                    type: "boolean",
+                    name: "enable",
+                    label: "Enable Button",
+                  },
+                  {
+                    type: "string",
+                    name: "label",
+                    label: "Button Label",
+                  },
+                  {
+                    type: "string",
+                    name: "icon",
+                    label: "Button Icon",
+                  },
+                  {
+                    type: "string",
+                    name: "link",
+                    label: "Button Link",
+                  },
+                ],
+              },
+              {
+                type: "object",
+                name: "faq_list",
+                label: "FAQ List",
+                itemProps: (item) => ({
+                  label: item.title, // Use the name
+                }),
+                list:true,
+                fields: [
+                  {
+                    type: "string",
+                    name: "title",
+                    label: "FAQ Title",
+                  },
+                  {
+                    type: "string",
+                    name: "content",
+                    label: "FAQ Content",
+                  },
+                ],
+              },
             ],
           },
         ],
