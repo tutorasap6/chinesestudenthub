@@ -50,7 +50,7 @@
   translation: Message
   
 - id: submit_now
-  translation: Submit Now
+  translation: Send Message
   
 - id: cv_note
   translation: only doc, pdf file allowed &amp; file size will be less than 2MB

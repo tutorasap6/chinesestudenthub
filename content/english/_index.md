@@ -6,7 +6,7 @@ banner:
   description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <br> eirmod tempor invidunt ut labore et dolore magna aliquyam erat"
   button:
     enable: true
-    label: "Get a Free c"
+    label: "Get a Free Quote"
     icon: "fas fa-arrow-right"
     link: "contact/"
   video_button:

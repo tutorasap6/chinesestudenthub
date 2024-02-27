@@ -53,7 +53,7 @@ icon = "far fa-user"
 [navigation_button_two]
 enable = true
 label = "Get a Free Quote"
-link = "#!"
+link = "get-quote/"
 
 # Call to action
 [call_to_action]
