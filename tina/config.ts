@@ -1570,6 +1570,110 @@ export default defineConfig({
         ],
       },
 
+      // get quote 
+
+      {
+        name: "quote",
+        label: "Get Quote Page",
+        path: "content/english",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "get-quote",
+        },
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+          },
+          
+          {
+            type: "string",
+            name: "layout",
+            label: "Layout",
+          },
+          {
+            type: "object",
+            name: "contact",
+            label: "Contact Section",
+            fields: [
+              {
+                type: "string",
+                name: "subtitle",
+                label: "Subtitle",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "string",
+                name: "description",
+                label: "Description",
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "contact_info",
+            label: "Contact Information",
+            fields: [
+              {
+                type: "boolean",
+                name: "enable",
+                label: "Enable Section",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "string",
+                name: "address_list",
+                label: "Address List",
+                list:true,
+                
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "services",
+            label: "Services Section",
+            fields: [
+              {
+                type: "boolean",
+                name: "enable",
+                label: "Enable Section",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "string",
+                name: "service_list",
+                label: "Service List",
+                list:true,
+            
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
 });
