@@ -63,27 +63,23 @@ hasChildren = true
 
   [[main]]
   parent = "Services"
-  name = "Team"
-  url = "team/"
+  name = "Online Class Help"
+  url = "services/online-class-help/"
   weight = 11
 
   [[main]]
   parent = "Services"
-  name = "Career"
-  url = "career/"
+  name = "Writing Service"
+  url = "services/writing-service/"
   weight = 13
 
   [[main]]
   parent = "Services"
-  name = "Career Single"
-  url = "career/digital-marketing-paid-media-manager/"
+  name = "Assignment Help"
+  url = "services/assignment-help/"
   weight = 15
 
-  [[main]]
-  parent = "Services"
-  name = "Blog Details"
-  url = "blog/post-5/"
-  weight = 17
+  
 
 
 

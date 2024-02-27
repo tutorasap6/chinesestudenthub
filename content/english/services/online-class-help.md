@@ -1,9 +1,9 @@
 ---
-date: "2021-07-08"
+date: "2021-07-14"
 draft: false
-title: "ASP.NET Software Developer"
-job_nature: "Full Time"
-category: "Developer"
+title: "Online Class Help"
+#job_nature: "Full Time"
+#category: "Digital Marketing"
 ---
 
 #### What Is the role?

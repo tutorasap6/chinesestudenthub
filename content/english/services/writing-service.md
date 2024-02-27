@@ -1,9 +1,9 @@
 ---
-date: "2021-07-09"
+date: "2021-07-14"
 draft: false
-title: "Technology Integration Support"
-job_nature: "Full Time"
-category: "Support"
+title: "Writing Service"
+#job_nature: "Full Time"
+#category: "Digital Marketing"
 ---
 
 #### What Is the role?
