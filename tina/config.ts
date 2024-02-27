@@ -220,10 +220,10 @@ export default defineConfig({
                   },
                 ],
               },
-              
-            
+
+
             ],
-            },
+          },
           // workinprocess
           {
             type: "object",
@@ -319,7 +319,7 @@ export default defineConfig({
                 itemProps: (item) => ({
                   label: item.name, // Use the name
                 }),
-                list:true,
+                list: true,
                 fields: [
                   {
                     type: "string",
@@ -467,7 +467,7 @@ export default defineConfig({
             type: "rich-text",
             name: "body",
             label: "Body",
-            isBody: true, 
+            isBody: true,
           },
         ],
       },
@@ -586,7 +586,7 @@ export default defineConfig({
                 itemProps: (item) => ({
                   label: item.title, // Use the name
                 }),
-                list:true,
+                list: true,
                 fields: [
                   {
                     type: "string",
@@ -781,7 +781,7 @@ export default defineConfig({
                 itemProps: (item) => ({
                   label: item.title, // Use the name
                 }),
-                list:true,
+                list: true,
                 fields: [
                   {
                     type: "string",
@@ -866,9 +866,9 @@ export default defineConfig({
                 itemProps: (item) => ({
                   label: item.title, // Use the name
                 }),
-                list:true,
+                list: true,
                 fields: [
-                  
+
                   {
                     type: "string",
                     name: "icon",
@@ -887,14 +887,14 @@ export default defineConfig({
                   // Add other fields specific to the our_peoples section
                 ],
               },
-              
+
             ],
           },
           {
             type: "object",
             name: "our_peoples",
             label: "Our Peoples",
-            
+
             fields: [
               {
                 type: "boolean",
@@ -918,7 +918,7 @@ export default defineConfig({
                 itemProps: (item) => ({
                   label: item.name, // Use the name
                 }),
-                list:true,
+                list: true,
                 fields: [
                   {
                     type: "string",
@@ -951,7 +951,7 @@ export default defineConfig({
                 name: "enable",
                 label: "Enable Section",
               },
-             
+
               {
                 type: "string",
                 name: "subtitle",
@@ -967,7 +967,7 @@ export default defineConfig({
                 name: "content",
                 label: "content",
               },
-              
+
               // Add other fields specific to the career section
             ],
           },
@@ -1077,7 +1077,7 @@ export default defineConfig({
                 itemProps: (item) => ({
                   label: item.title, // Use the name
                 }),
-                list:true,
+                list: true,
                 fields: [
                   {
                     type: "string",
@@ -1122,12 +1122,12 @@ export default defineConfig({
             name: "description",
             label: "Description",
           },
-         
+
           {
             type: "rich-text",
             name: "body",
             label: "Body",
-            isBody: true, 
+            isBody: true,
           },
         ],
       },
@@ -1158,16 +1158,16 @@ export default defineConfig({
             name: "description",
             label: "Description",
           },
-         
+
           {
             type: "rich-text",
             name: "body",
             label: "Body",
-            isBody: true, 
+            isBody: true,
           },
         ],
       },
-      
+
       // Revision Policy
 
       {
@@ -1194,12 +1194,12 @@ export default defineConfig({
             name: "description",
             label: "Description",
           },
-         
+
           {
             type: "rich-text",
             name: "body",
             label: "Body",
-            isBody: true, 
+            isBody: true,
           },
         ],
       },
@@ -1230,12 +1230,12 @@ export default defineConfig({
             name: "description",
             label: "Description",
           },
-         
+
           {
             type: "rich-text",
             name: "body",
             label: "Body",
-            isBody: true, 
+            isBody: true,
           },
         ],
       },
@@ -1266,7 +1266,7 @@ export default defineConfig({
             name: "description",
             label: "Description",
           },
-          
+
           {
             type: "string",
             name: "layout",
@@ -1297,53 +1297,53 @@ export default defineConfig({
             itemProps: (item) => ({
               label: item.name, // Use the name
             }),
-            list:true,
-            
-              fields: [
-                {
-                  type: "string",
-                  name: "name",
-                  label: "Name",
-                },
-                {
-                  type: "boolean",
-                  name: "populer",
-                  label: "Popular",
-                },
-                {
-                  type: "string",
-                  name: "content",
-                  label: "Content",
-                },
-                {
-                  type: "string",
-                  name: "currency",
-                  label: "Currency",
-                },
-                {
-                  type: "string",
-                  name: "price",
-                  label: "Price",
-                },
-                {
-                  type: "string",
-                  name: "buy_now_btn_label",
-                  label: "Buy Now Button Label",
-                },
-                {
-                  type: "string",
-                  name: "buy_now_btn_link",
-                  label: "Buy Now Button Link",
-                },
-                
-                {
-                  type: "rich-text",
-                  name: "features",
-                  label: "Features",
-                  isBody: true,
-                },
-              ],
-            
+            list: true,
+
+            fields: [
+              {
+                type: "string",
+                name: "name",
+                label: "Name",
+              },
+              {
+                type: "boolean",
+                name: "populer",
+                label: "Popular",
+              },
+              {
+                type: "string",
+                name: "content",
+                label: "Content",
+              },
+              {
+                type: "string",
+                name: "currency",
+                label: "Currency",
+              },
+              {
+                type: "string",
+                name: "price",
+                label: "Price",
+              },
+              {
+                type: "string",
+                name: "buy_now_btn_label",
+                label: "Buy Now Button Label",
+              },
+              {
+                type: "string",
+                name: "buy_now_btn_link",
+                label: "Buy Now Button Link",
+              },
+
+              {
+                type: "rich-text",
+                name: "features",
+                label: "Features",
+                isBody: true,
+              },
+            ],
+
           },
           {
             type: "object",
@@ -1404,24 +1404,62 @@ export default defineConfig({
                 itemProps: (item) => ({
                   label: item.title, // Use the name
                 }),
-                list:true,
-              
-                  
-                  fields: [
-                    {
-                      type: "string",
-                      name: "title",
-                      label: "Title",
-                    },
-                    {
-                      type: "string",
-                      name: "content",
-                      label: "Content",
-                    },
-                  ],
-                
+                list: true,
+
+
+                fields: [
+                  {
+                    type: "string",
+                    name: "title",
+                    label: "Title",
+                  },
+                  {
+                    type: "string",
+                    name: "content",
+                    label: "Content",
+                  },
+                ],
+
               },
             ],
+          },
+        ],
+      },
+
+      // Service page
+      {
+        name: "services",
+        label: "Service Page",
+        path: "content/english/services",
+        ui: {
+          allowedActions: {
+            create: true,
+            delete: true,
+          },
+        },
+
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+          },
+
+          {
+            type: "datetime",
+            name: "date",
+            label: "Publish Date",
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
           },
         ],
       },

@@ -2,6 +2,7 @@
 date: "2021-07-14"
 draft: false
 title: "Writing Service"
+description: "this is meta description"
 #job_nature: "Full Time"
 #category: "Digital Marketing"
 ---
