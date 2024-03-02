@@ -144,7 +144,7 @@ export default defineConfig({
                 label: "Title",
               },
               {
-                type: "string",
+                type: "image",
                 name: "images",
                 label: "Brand Images",
                 list: true
