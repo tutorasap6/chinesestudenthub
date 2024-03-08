@@ -22,7 +22,7 @@ banner:
   description: >-
     Looking for reliable online class help? At Chinesestudenthub.com, we offer
     unmatched assistance with online classes, exams, Pre-Nursing exams,
-    NCLEX-RN, Ati.Teas, HESI, GED, and assignments tailored for Chinese students
+    NCLEX-RN, Ati.Teas,HESI,GED,and assignments tailored for Chinese students
     abroad. 
   button:
     enable: true
