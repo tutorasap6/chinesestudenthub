@@ -21,10 +21,9 @@ banner:
   subtitle: Online class assistance.
   description: >-
     Looking for reliable online class help? At Chinesestudenthub.com, we offer
-    unmatched assistance with online classes, exams, and assignments tailored
-    for Chinese students abroad. Our team of experts ensures high-quality
-    support, providing 24/7 guidance without outsourcing, alongside a money-back
-    guarantee. Embrace a stress-free academic journey with us today.
+    unmatched assistance with online classes, exams, Pre-Nursing exams,
+    NCLEX-RN, Ati.Teas, HESI, GED, and assignments tailored for Chinese students
+    abroad. 
   button:
     enable: true
     label: Get a Free Quote
