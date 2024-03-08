@@ -20,12 +20,11 @@ banner:
   title: Hire Someone to Take My Online Class Online Class Assistance
   subtitle: Online class assistance.
   description: >-
-    Looking for reliable online class help and other students services that
-    stresses you? At Chinesestudenthub.com, we offer unmatched assistance with
-    online classes, exams, and assignments tailored for Chinese students abroad.
-    Our team of experts ensures high-quality support, providing 24/7 guidance
-    without outsourcing, alongside a money-back guarantee. Embrace a stress-free
-    academic journey with us today.
+    Looking for reliable online class help? At Chinesestudenthub.com, we offer
+    unmatched assistance with online classes, exams, and assignments tailored
+    for Chinese students abroad. Our team of experts ensures high-quality
+    support, providing 24/7 guidance without outsourcing, alongside a money-back
+    guarantee. Embrace a stress-free academic journey with us today.
   button:
     enable: true
     label: Get a Free Quote
