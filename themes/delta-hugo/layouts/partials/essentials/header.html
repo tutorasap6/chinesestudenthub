@@ -7,7 +7,7 @@
       <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}" title="{{site.Title}}">
         {{ partial "logo.html" }}
       </a>
-      
+
       <div class="navbar-actions">
         <!-- Language List -->
         {{ if .IsTranslated }}
@@ -40,7 +40,7 @@
 
       <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav mx-auto">
-          
+
           <li class="nav-item {{if .IsHome}}active{{end}}">
             <a class="nav-link" href="{{ site.BaseURL | relLangURL }}">Home</a>
           </li>
@@ -51,7 +51,7 @@
             <a class="nav-link dropdown-toggle d-inline-flex align-items-center" href="#" role="button"
               data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="position: relative;">
               <span>{{ .Title }}</span>
-              
+
             </a>
 
             <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown"
@@ -72,7 +72,9 @@
           </li>
           {{ end }}
           <!-- ... (subject) ... -->
-          
+
+         
+
           {{ $currentPage := . }}
           {{ range site.Menus.main }}
           {{ $menuURL := .URL | absLangURL }}
@@ -94,8 +96,10 @@
               {{ $childURL := .URL | absLangURL }}
               {{ $active := eq $childURL $pageURL }}
               <li>
-                <a class="dropdown-item {{if $active}}active{{end}}" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
-                href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else if eq .URL (`/` | relURL) }}{{.URL}}{{site.Language}}/{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
+                <a class="dropdown-item {{if $active}}active{{end}}" {{if findRE `^http` .URL}}target="_blank"
+                  rel="noopener" {{end}}
+                  href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else if eq .URL (`/` | relURL) }}{{.URL}}{{site.Language}}/{{else}}{{.URL | relLangURL}}{{end}}">{{
+                  .Name }}</a>
               </li>
               {{ end }}
             </ul>
@@ -103,10 +107,40 @@
           {{ else }}
           <li class="nav-item {{if $active}}active{{end}}">
             <a class="nav-link" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
-              href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else if eq .URL (`/` | relURL) }}{{.URL}}{{site.Language}}/{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
+              href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else if eq .URL (`/` | relURL) }}{{.URL}}{{site.Language}}/{{else}}{{.URL | relLangURL}}{{end}}">{{
+              .Name }}</a>
           </li>
           {{ end }}
           {{ end }}
+
+           <!-- Services -->
+           {{ $servicesSection := .Site.GetPage "section" "services" }}
+           {{ with $servicesSection }}
+           <li class="nav-item dropdown position-static">
+             <a class="nav-link dropdown-toggle d-inline-flex align-items-center" href="#" role="button"
+               data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="position: relative;">
+               <span>{{ .Title }}</span>
+             </a>
+ 
+             <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown"
+               style="border-top-left-radius: 0; border-top-right-radius: 0; max-height: 100vh; overflow-y: auto;">
+               <div class="container">
+                 <div class="row my-2 my-md-2">
+                   {{ range .Pages }}
+                   <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
+                     <div class="list-group list-group-flush">
+                       <a href="{{ .Permalink }}" class="dropdown-item list-group-item list-group-item-action"
+                         style="max-width: 100%; white-space: normal; word-wrap: break-word;">{{ .Title  }}</a>
+                     </div>
+                   </div>
+                   {{ end }}
+                 </div>
+               </div>
+             </div>
+           </li>
+           {{ end }}
+           <!-- ... services end ... -->
+ 
 
           {{/*<li class="nav-item d-none d-xl-block">
             <!-- Language List -->
@@ -120,10 +154,12 @@
               {{ if eq $translation.Lang .Lang }}
               {{ $selected := false }}
               {{ if eq $pageLang .Lang}}
-              <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}" selected>{{ .LanguageName }}
+              <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}" selected>{{ .LanguageName
+                }}
               </option>
               {{ else }}
-              <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}">{{ .LanguageName }}</option>
+              <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}">{{ .LanguageName }}
+              </option>
               {{ end }}
               {{ end }}
               {{ end }}

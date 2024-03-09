@@ -55,33 +55,6 @@ name = "Pricing"
 url = "pricing/"
 weight = 6
 
-[[main]]
-weight = 7
-name = "Services"
-hasChildren = true
-
-
-  [[main]]
-  parent = "Services"
-  name = "Online Class Help"
-  url = "services/online-class-help/"
-  weight = 11
-
-  [[main]]
-  parent = "Services"
-  name = "Writing Service"
-  url = "services/writing-service/"
-  weight = 13
-
-  [[main]]
-  parent = "Services"
-  name = "Assignment Help"
-  url = "services/assignment-help/"
-  weight = 15
-
-  
-
-
 
   
 [[main]]
