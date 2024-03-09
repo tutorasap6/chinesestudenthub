@@ -1,14 +1,13 @@
 ---
-title: Chinese Visa applications Help
+title: Visa applications Help
 description: >-
   Dreaming of the US? ChineseStudentHub.com's your magic key! Picture this: a
   site where navigating the US visa maze feels like a breeze. We've got your
   back, offering insights, guidance, and all the support you need to bring your
   American dream to life. Whether it's mastering the visa types, perfecting your
   documents, or smashing the interview, we're here, every step of the way.
-date: '2023-12-31T21:00:00.000Z'
+date: 2023-12-31T21:00:00.000Z
 ---
-
 
 # Chinese Visa applications Help to Canada, UK ,USA, and Australia
 
