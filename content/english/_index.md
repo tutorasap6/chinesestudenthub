@@ -72,14 +72,18 @@ work_process:
 image_and_content_block:
   enable: true
   subtitle: We Are Chinese Student Hub
-  title: 'Lots of people love us, <br> and we''re also.'
+  title: 'Many of International students love us, <br> and we''re also.'
   image: images/block-image-01.png
   content_position: left
   content: >-
-    Find out how ChineseStudentHub.com can help Chinese students in the US,
-    Canada, Australia, and the UK with their academic needs, housing, applying
-    for visas, financial assistance, scholarships, and integrating into the
-    local community.
+    Welcome to ChineseStudentHub.com, a portal committed to assisting Chinese
+    students beginning their educational adventure in the United States, Canada,
+    Australia, and the United Kingdom. Our primary aim is to offer complete help
+    and services that address academic problems, housing issues, visa
+    applications, financial aid, and scholarship possibilities while also
+    cultivating a feeling of community abroad. We try to make your foreign
+    education experience simple and rewarding by offering specialised programs
+    and services.
 testimonials:
   enable: true
   subtitle: People Say's
