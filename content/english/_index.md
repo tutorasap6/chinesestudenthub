@@ -20,12 +20,11 @@ banner:
   title: Hire Someone to Take My Online Class Online Class Assistance
   subtitle: Online class assistance.
   description: >-
-    Looking for reliableacademic needs, housing, applying for visas, financial
-    assistance, scholarships, and integrating into the local community, while
-    taking your studies abroad? <br> At Chinesestudenthub.com, we offer
-    unmatched assistance with Full course, Proctored exams, Pre-Nursing exams,
-    NCLEX-RN, Ati.Teas,HESI,GED,and assignments tailored for Chinese students
-    abroad. 
+    Looking for reliable academic needs, housing, applying for visas,
+    scholarships, and integrating into the local community, while taking your
+    studies abroad? <br> At Chinesestudenthub.com, we offer unmatched assistance
+    with all those not limited to taking your Full course assignments, NCLEX-RN,
+    Ati.Teas,HESI,GED,and assignments tailored for Chinese students abroad. 
   button:
     enable: true
     label: Get a Free Quote
