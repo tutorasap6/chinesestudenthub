@@ -68,7 +68,7 @@ fun_facts:
       content: Make hires 40% <br> faster
 work_process:
   enable: true
-  section: how-it-works
+  section: Our Past Work of Reviews
 image_and_content_block:
   enable: true
   subtitle: We Are Delta
