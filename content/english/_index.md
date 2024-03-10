@@ -129,9 +129,16 @@ blog:
   subtitle: Recent Articles
   title: Recent Posts to serve better
   description: >-
-    Vestibulum ante ipsum primis in faucibus  luctus et ultrices posuere <br>
-    cubilia Curae; Donec velit neque, auctor sit amet aliquamvel, ullamsw rfgws
-    ercor
+    Amid the global education landscape, Chinesestudenthub.com emerges as an
+    exemplary resource for Chinese students who are embarking on academic
+    journeys overseas. Concentrating on the United States, United Kingdom,
+    Canada, and Australia, we offer all-encompassing services intended to
+    facilitate the transition and guarantee a prosperous academic trajectory. 
+    Overcoming Academic Obstacles  Our platform provides individualized academic
+    assistance, such as tutoring and access to resources, to assist students in
+    excelling academically. It is crucial that you comprehend the academic
+    expectations and standards in these nations; chinesestudenthub.com is at
+    your disposal to assist you at every stage.
   button:
     enable: true
     link: blog/
