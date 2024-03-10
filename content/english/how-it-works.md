@@ -2,8 +2,10 @@
 draft: false
 title: How It Works
 description: >-
-  Libero consequuntur doloremque amet, cum fugiat ipsam blanditiis corrupti
-  praesentium quis.
+  Start your trip to study abroad with ChineseStudentHub.com by your side. Our
+  full support system is meant to make your transfer easy and your time studying
+  more rewarding. Start your trip today and open the door to learning chances
+  around the world.
 layout: how-it-works
 banner:
   subtitle: We Are ChineseStudentHub
