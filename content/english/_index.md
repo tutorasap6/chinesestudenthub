@@ -113,10 +113,17 @@ testimonials:
       designation: 'Developer, Ammarait'
       rating: '4.2'
       content: >-
-        Amet consectetur adipisicing elit. Voluptates, suscipit dolorum! Quis
-        explicabo quibusdam error expedita dolore veritatis magni fugiat rem
-        provident qui, in dolorem quo laboriosam modi tenetur aperiam. obcaecati
-        molestias laudantium corporis doloremque qui, voluptate minus?
+        Amet consectetur It was clear from the start that ChineseStudentHub.com
+        was more than just a service; it was a relationship. They took the time
+        to learn about not only my school needs but also my personal goals and
+        hobbies. This all-around method made a huge difference. They told me in
+        great depth about the different courses, how they fit with my goals, and
+        what my life would be like after I graduated. It wasn't just about
+        getting me into a course; it was about getting me into the best course
+        for me. elit. Voluptates, suscipit dolorum! Quis explicabo quibusdam
+        error expedita dolore veritatis magni fugiat rem provident qui, in
+        dolorem quo laboriosam modi tenetur aperiam. obcaecati molestias
+        laudantium corporis doloremque qui, voluptate minus?
 blog:
   enable: true
   subtitle: Recent Articles
