@@ -26,8 +26,8 @@ banner:
   image: images/banner-how-it-works.png
 work_process:
   enable: true
-  subtitle: Work process of Delta
-  title: The process of how Delta works
+  subtitle: Work process of ChineseStudentHub
+  title: The process of how ChineseStudentHub works
   process_item:
     - title: Ultimate Guide
       image: images/process/01.jpg
