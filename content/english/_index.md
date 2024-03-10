@@ -86,19 +86,19 @@ image_and_content_block:
     and services.
 testimonials:
   enable: true
-  subtitle: People Say's
+  subtitle: What most of our Clients Say
   title: about Three million users <br> Testimonial Together
   image: images/testimonials-group.png
   reviews:
     - name: Erica Carlina
-      designation: 'CEO & Founder, Ammarait'
+      designation: 'Immigration office, Japan'
       rating: '5.0'
       content: >-
-        Consectetur adipisicing elit. Cum voluptates odio nostrum impedit
-        deleniti cupiditate deserunt harum doloremque veritatis accusantium,
-        unde sint, laudantium distinctio, velit atque asperiores aspernatur
-        laboriosam officiis obcaecati molestias laudantium corporis doloremque
-        qui, voluptate minus?
+        We couldn't describe how happy we were when we got the news that my
+        daughter's visa had been approved. It was not only a win for her, but
+        also proof of how much help and support we got from
+        ChineseStudentHub.com. They weren't just a service; they were a part of
+        our trip.
     - name: Justin Rubela
       designation: 'Founder, Justin Inc.'
       rating: '4.5'
