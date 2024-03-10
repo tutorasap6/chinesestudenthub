@@ -100,13 +100,15 @@ testimonials:
         ChineseStudentHub.com. They weren't just a service; they were a part of
         our trip.
     - name: Justin Rubela
-      designation: 'Founder, Justin Inc.'
+      designation: Student with confidential name as Justin R.
       rating: '4.5'
       content: >-
-        Dolorsit amet consectetur, adipisicing elit. Expedita repellendus optio
-        quaerat iste aliquam, rerum quas ab? Adipisci maxime tempore doloremque
-        laborum suscipit debitis autem ducimus dicta delectus, atque abofficiis
-        obcaecati molestias laudantium corporis doloremque qui, voluptate minus?
+        As someone who felt overwhelmed by the sheer number of college courses,
+        their complexities, and the registration procedures in a new country, I
+        needed clarity and guidance. ChineseStudentHub.com came to my rescue at
+        the right moment. The individualized approach they took to identifying
+        my academic interests, professional goals, and personal preferences was
+        exceptional. 
     - name: William Broke
       designation: 'Developer, Ammarait'
       rating: '4.2'
