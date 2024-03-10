@@ -71,23 +71,15 @@ work_process:
   section: Our Past Work of Reviews
 image_and_content_block:
   enable: true
-  subtitle: We Are Delta
+  subtitle: We Are Chinese Student Hub
   title: 'Lots of people love us, <br> and we''re also.'
   image: images/block-image-01.png
   content_position: left
   content: >-
-    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-    cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper
-    sit amet ligula. Vestibulum 
-
-
-    * luctus et ultrices uere cubia Curae Donec verglit
-
-    * Neque auctor congue leo eget malesuada Vivamus
-
-    * Sit amet dui Nulla quis lorem ut libero malesuada feugiat
-
-    * Donec verglit neque, auctor congue leo  malesuada. 
+    Find out how ChineseStudentHub.com can help Chinese students in the US,
+    Canada, Australia, and the UK with their academic needs, housing, applying
+    for visas, financial assistance, scholarships, and integrating into the
+    local community.
 testimonials:
   enable: true
   subtitle: People Say's
