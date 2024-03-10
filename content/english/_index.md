@@ -22,9 +22,10 @@ banner:
   description: >-
     Looking for reliableacademic needs, housing, applying for visas, financial
     assistance, scholarships, and integrating into the local community, while
-    taking your studies abroad? At Chinesestudenthub.com, we offer unmatched
-    assistance with Full course, Proctored exams, Pre-Nursing exams, NCLEX-RN,
-    Ati.Teas,HESI,GED,and assignments tailored for Chinese students abroad. 
+    taking your studies abroad? <br> At Chinesestudenthub.com, we offer
+    unmatched assistance with Full course, Proctored exams, Pre-Nursing exams,
+    NCLEX-RN, Ati.Teas,HESI,GED,and assignments tailored for Chinese students
+    abroad. 
   button:
     enable: true
     label: Get a Free Quote
