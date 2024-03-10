@@ -47,7 +47,7 @@ features:
   enable: true
   section: features
 fun_facts:
-  enable: true
+  enable: false
   title: fun facts about okta Millions <br> trusted use worldwide
   fact_item:
     - icon: fas fa-fighter-jet
