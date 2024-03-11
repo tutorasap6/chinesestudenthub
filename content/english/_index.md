@@ -17,14 +17,13 @@ slider_and_content_block:
     congue leo eget malesuada. Vivamus susr cipit sit amet dui. Nulla quis lorem
     ut libero malesuada feugiat. 
 banner:
-  title: Hire Someone to Take My Online Class Online Class Assistance
+  title: Hire Someone to Take My Online Class| Online Class Assistance
   subtitle: Online class assistance.
   description: >-
-    Looking for reliable academic needs, housing, applying for visas,
-    scholarships, and integrating into the local community, while taking your
-    studies abroad? <br> At Chinesestudenthub.com, we offer unmatched assistance
-    with all those not limited to taking your Full course assignments, NCLEX-RN,
-    Ati.Teas,HESI,GED,and assignments tailored for Chinese students abroad. 
+    At Chinesestudenthub.com, we offer unmatched assistance with all those not
+    limited to taking your Full course assignments, NCLEX-RN,
+    Ati.Teas,HESI,GED,and assignments tailored for Chinese students abroad. We
+    can also help you in other matters that relate to non-academic matters 
   button:
     enable: true
     label: Get a Free Quote
