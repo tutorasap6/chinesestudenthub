@@ -89,6 +89,11 @@ testimonials:
   title: about Three million users <br> Testimonial Together
   image: images/testimonials-group.png
   reviews:
+    - {}
+    - name: Juan Cheng
+      designation: Waters
+      rating: '5'
+      content: I got an A on my Economics class
     - name: Erica Carlina
       designation: 'Immigration office, Japan'
       rating: '5.0'
