@@ -43,7 +43,7 @@ brands:
     - /assets/images/clients/04.png
     - /assets/images/clients/05.png
 features:
-  enable: true
+  enable: false
   section: features
 fun_facts:
   enable: false
