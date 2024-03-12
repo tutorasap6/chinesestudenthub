@@ -89,7 +89,12 @@ testimonials:
   title: about Three million users <br> Testimonial Together
   image: images/testimonials-group.png
   reviews:
-    - {}
+    - name: Edmund Siu
+      designation: student
+      rating: '5'
+      content: >-
+        They drafted me an outline for My Admission Essay which secured my
+        University admission. Am greatful 
     - name: Juan Cheng
       designation: Waters
       rating: '5'
