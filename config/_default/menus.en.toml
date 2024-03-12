@@ -72,89 +72,78 @@ weight = 9
 ### footer menus
 # footer_menu_1
 [[footer_menu_1]]
-name = "Product 01"
-url = "#!"
+name = "Our Story"
+url = "about/"
 weight = 1
 
 [[footer_menu_1]]
-name = "Example Product 02"
-url = "#!"
+name = "FAQs"
+url = "faqs/"
 weight = 2
 
 [[footer_menu_1]]
-name = "Example Product 03"
-url = "#!"
+name = "How It Works"
+url = "how-it-works/"
 weight = 3
 
-[[footer_menu_1]]
-name = "Example Product 04"
-url = "#!"
-weight = 4
+
 
 
 # footer_menu_2
 [[footer_menu_2]]
-name = "Logo & Branding"
-url = "#!"
+name = "Academic Writing Help"
+url = "academic-writing-help/"
 weight = 1
 
 [[footer_menu_2]]
-name = "Pay-Per-Click"
-url = "#!"
+name = "Visa Applications Help"
+url = "visa-applications-help/"
 weight = 2
 
 [[footer_menu_2]]
-name = "Website Design"
-url = "#!"
+name = "GPA Calculation Help"
+url = "gpa-calculation-help/"
 weight = 3
 
-[[footer_menu_2]]
-name = "App Design"
-url = "#!"
-weight = 4
-
-[[footer_menu_2]]
-name = "SEO Optimization"
-url = "#!"
-weight = 5
 
 
 # footer_menu_3
 [[footer_menu_3]]
-name = "Contact"
-url = "contact/"
+name = "Pricing"
+url = "pricing/"
 weight = 1
 
 [[footer_menu_3]]
-name = "Privacy Policy"
-url = "#!"
+name = "Blog"
+url = "blog/"
 weight = 2
 
 [[footer_menu_3]]
-name = "Terms & Conditions"
-url = "#!"
+name = "Contact"
+url = "contact/"
 weight = 3
 
 
 # footer_menu_4
 [[footer_menu_4]]
-name = "How It Works"
-url = "#!"
+name = "Terms"
+url = "tnc/"
 weight = 1
 
-[[footer_menu_4]]
-name = "Features"
-url = "#!"
-weight = 2
 
 [[footer_menu_4]]
-name = "Pricing 1"
-url = "pricing/"
+name = "Money Back"
+url = "money-back/"
 weight = 3
 
 [[footer_menu_4]]
-name = "Pricing 2"
-url = "#!"
+name = "Privacy Policy"
+url = "privacy-policy/"
+weight = 4
+
+[[footer_menu_4]]
+name = "Revision Policy"
+url = "revision-policy/"
 weight = 4
 
 
