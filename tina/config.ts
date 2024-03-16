@@ -472,6 +472,86 @@ export default defineConfig({
         ],
       },
 
+      // features page
+
+      {
+        "name": "features",
+        "label": "Features Page",
+        "path": "content/english",
+        "ui": {
+          "allowedActions": {
+            "create": false,
+            "delete": false
+          }
+        },
+        "match": {
+          "include": "features"
+        },
+        "fields": [
+          {
+            "type": "string",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "type": "string",
+            "name": "description",
+            "label": "Description"
+          },
+          
+          {
+            type: "string",
+            name: "layout",
+            label: "layout",
+            description: "It is default value - DO NOT CHANGE",
+          },
+          {
+            "type": "object",
+            "name": "features",
+            "label": "Features Section",
+            "fields": [
+              {
+                "type": "string",
+                "name": "subtitle",
+                "label": "Subtitle"
+              },
+              {
+                "type": "string",
+                "name": "title",
+                "label": "Title"
+              },
+    
+              {
+                "type": "object",
+                "name": "features_blocks",
+                "label": "Features Blocks",
+                itemProps: (item) => ({
+                  label: item.title, // Use the name
+                }),
+                list:true,
+                "fields": [
+                  {
+                    "type": "string",
+                    "name": "title",
+                    "label": "Title"
+                  },
+                  {
+                    "type": "string",
+                    "name": "icon",
+                    "label": "Icon"
+                  },
+                  {
+                    "type": "string",
+                    "name": "content",
+                    "label": "Content"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+
       // How it works
 
       {
@@ -1674,6 +1754,70 @@ export default defineConfig({
           },
         ],
       },
+
+      // ... Blog...
+
+      {
+        name: "post",
+        label: "Blogs",
+        path: "content/english/blog",
+        ui: {
+          allowedActions: {
+            create: true,
+            delete: true,
+          },
+        },
+        match: {
+          exclude: "_index*",
+        },
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+            description: "Enter the meta description",
+          },
+          {
+            type: "datetime",
+            name: "date",
+            label: "Publish Date",
+          },
+          {
+            type: "image",
+            name: "images",
+            label: "Image",
+            list: true,
+            description: "Upload or select an image.",
+          },
+          {
+            type: "string",
+            name: "tags",
+            label: "tags",
+            list: true,
+          },
+          {
+            type: "string",
+            name: "categories",
+            label: "categories",
+            list: true,
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+        ],
+      },
+
+
     ],
   },
 });
