@@ -842,6 +842,11 @@ export default defineConfig({
                 name: "title",
                 label: "title",
               },
+              {
+                type: "string",
+                name: "description",
+                label: "Content",
+              },
             ],
           },
           {
