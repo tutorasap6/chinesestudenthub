@@ -21,67 +21,118 @@ pricing:
 # pricing card
 pricing_card:
 # pricing table
-- name : "Suite Profession"
-  populer : true
-  content : "per agent/month billed annually"
+- name : "Single Assignment Help"
+  populer : false
+  content : "$20/ page per each assignment"
   currency: "$"
-  price : "79"
+  price : "20"
   buy_now_btn_label : "Get Started"
   buy_now_btn_link : "contact"
   #free_trial_btn_label : "Start Free Trial"
   #free_trial_btn_link : "contact"
   features: "
-  * Online, email, and phone support from the **Aendesk team**
+  * Original Turnitin pas
 
-  * Industry-leading **ticketing system**
+  * Ready for submission in your class
 
-  * Messaging across web, mobile and social
+  * Human Regenerated content; not AIs
 
-  * Easy-to-set up automations & workflows
+  * Early Delivery
   
-  * AI-powered automated answers - **UP TO 1200**
+  * 100% Confidentiality
   
-  * AI-powered knowledge management
   "
 # pricing table
-- name : "Suite Team"
+- name : "Premium Single Assignment Help"
   populer : false
-  content : "per agent/month billed annually"
+  content : "$40/ page per each assignment"
   currency: "$"
-  price : "49"
+  price : "40"
   buy_now_btn_label : "Get Started"
   buy_now_btn_link : "contact"
   #free_trial_btn_label : "Start Free Trial"
   #free_trial_btn_link : "contact"
   features: "
-  * Messaging across web, mobile and social 
+  * Original Turnitin pass
   
-  * Industry-leading **ticketing system**
+  * ENL writes
   
-  * AI-powered knowledge management
+  * Update after every 5 hours of task progress
   
-  * AI-powered automated answers - **UP TO 600**
+  * Ready for submission in your class
 
-  * Easy-to-set up automations & workflows
+  * Human Regenerated content; not AIs
+  
+  * Early Delivery
+  
+  * 100% Confidentiality
+
+  * Plagiarism Report
+
   " 
 # pricing table
-- name : "Suite Growth"
-  populer : false
-  content : "per agent/month billed annually"
+- name : "Professional Entire Class Help"
+  populer : true
+  content : "$100/week"
   currency: "$"
-  price : "29"
+  price : "100"
   buy_now_btn_label : "Get Started"
   buy_now_btn_link : "contact"
   #free_trial_btn_label : "Start Free Trial"
   #free_trial_btn_link : "contact"
   features: "
-  * Messaging across web, mobile and social
+  * Original work guaranteed
   
-  * AI-powered automated answers - **UP TO 250**
+  * You relax and we take all tasks for the class
 
-  * Industry-leading **ticketing system**
+  * Submissions are done on your behalf
 
-  * Easy-to-set up automations & workflows
+  * Plagiarism Free and Turnitin Pass
+  
+  * Human Generated Content
+  
+  * Grade A and Minimum B guaranteed
+
+  * Money Back Guarantee Blow Grade B
+
+  * ENL writers to Take your Class
+
+  * 100% Confidentiality
+  "
+# pricing table
+- name : "Premium Entire Class Help"
+  populer : false
+  content : "$249/ page per each assignment"
+  currency: "$"
+  price : "249"
+  buy_now_btn_label : "Get Started"
+  buy_now_btn_link : "contact"
+  #free_trial_btn_label : "Start Free Trial"
+  #free_trial_btn_link : "contact"
+  features: "
+  * Original work guaranteed
+  
+  * Update every 24hrs
+
+  * Update of the grades every grading time
+
+  * You relax and we take all tasks for the class
+  
+  * Submissions are done on your behalf
+  
+  * Plagiarism Free and Turnitin Pass
+  
+  * Human Generated Content
+  
+  * Grade A and Minimum B guaranteed
+  
+  * Money Back Guarantee Blow Grade B
+
+  * ENL writers to Take your Class
+  
+  * 100% Confidentiality
+
+  * Discount for Every new Class Registered
   "
 # faq
 faq:
