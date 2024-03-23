@@ -17,9 +17,9 @@
     <div class="row gy-3">
       {{range .Params.pricing_card}}
       <div class="col-lg-3 col-md-6">
-        <div class="pricing-card text-center rounded-md shadow-md pt-5 px-4 {{if .populer}}popular{{end}}" {{if .populer}}data-text="{{i18n `most_popular`}}"{{end}}>
+        <div class="pricing-card text-center rounded-md shadow-md pt-5 px-4 {{if .popular}}popular{{end}}" {{if .popular}}data-text="{{i18n `most_popular`}}"{{end}}>
           <h3 class="h4">{{.name}}</h3>
-
+    
           <p class="h5 font-secondary fw-bold">{{.currency}}{{.price}}</p>
           
           <p class="small">{{.content | markdownify}}</p>
@@ -29,14 +29,21 @@
           {{if .free_trial_btn_link}}
           <a class="btn btn-link d-block mt-1" href="{{.free_trial_btn_link | absLangURL}}/">{{.free_trial_btn_label}} &nbsp;<i class="fas fa-arrow-right small"></i></a>
           {{end}}
-
+    
           <div class="features mt-1 text-start">
-            {{.features | markdownify}}
+            <ul class="list-unstyled">
+              {{range split .features "\n"}}
+              {{if ne . ""}}
+              <li><i class="fas fa-check me-2 text-primary"></i>{{.}}</li>
+              {{end}}
+              {{end}}
+            </ul>
           </div>
         </div>
       </div>
       {{end}}
     </div>
+    
   </div>
 </section>
 
