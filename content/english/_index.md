@@ -1,21 +1,25 @@
 ---
 slider_and_content_block:
   enable: true
-  subtitle: We Are Delta
-  title: Let your lead reach <br> out to sales people
+  subtitle: Payment On Completion
+  title: Pay after Work is done
   slider:
     - images/block-image-02.png
     - images/block-image-02.png
   content_position: right
-  content: >-
-    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-    cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper
-    sit amet ligula. Vestibulum ante 
+  content: |
+    We get it the importance of believe and certainty in our services. That's why we offer a "Pay after Work is done" choice, allowing you to assess the quality of our work some time recently making an installment. This approach kills any chance or vulnerability, guaranteeing your total fulfillment some time recently committing fiscally.
 
+    At chinesestudenthub.com, we recognize that looking for academic help is a significant investment, both in terms of money related assets and believe you place in our administrations. We get it simply may have reservations or uncertainties about entrusting your coursework to a third party, which is why we offer the "Pay after Work is done" alternative.
 
-    orci luctus et ultrices pos uere cubilia Curae; Donec verglit neque, auctor
-    congue leo eget malesuada. Vivamus susr cipit sit amet dui. Nulla quis lorem
-    ut libero malesuada feugiat. 
+    This approach allows you to encounter our administrations firsthand some time recently making a monetary commitment. Our group of specialists will start working on your academic assignments, ventures, or coursework, giving you with a tangible example of their skill and the quality of their work.
+
+    Once you have got had the opportunity to survey and evaluate the starting advance, you'll be able give criticism, ask corrections, or address any concerns you will have. Our experts will work closely with you to guarantee that the ultimate item meets or surpasses your desires.
+
+    As it were after you are totally fulfilled with the quality of our work will we ask installment. This approach dispenses with any chance or uncertainty on your portion, as you'll have a firsthand understanding of our capabilities and the level of support ready to give some time recently committing financially.
+
+    By advertising the "Pay after Work is done" choice, we point to cultivate a relationship built on believe, straightforwardness, and common regard. We are certain within the ability of our group and the quality of our services, and we need you to involvement that firsthand some time recently making a money related commitment.
+
 banner:
   title: Hire Someone to Take My Online Class| Online Class Assistance
   subtitle: Online class assistance.

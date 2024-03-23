@@ -5,8 +5,19 @@ draft: false
 layout: "pricing"
 # pricing
 pricing:
-  subtitle: "We Are Delta"
-  title: "Everything you need for <br> best in class service"
+  subtitle: "Our Pricing"
+  title: |
+    At chinesestudenthub.com, we accept in straightforwardness and decency when it comes to estimating our administrations. Our "Pricing" area gives a clear and nitty gritty breakdown of the costs related with each of our offerings, guaranteeing you have got a comprehensive understanding of the speculation required.
+
+    We understand that seeking after higher instruction may be a noteworthy money related commitment, and looking for scholarly help can include to the overall cost. That's why we prioritize transparency in our pricing structure, ensuring that you just have get to all the data you would like to create an educated choice.
+
+    Our "Pricing" area is designed to be user-friendly and simple to explore. You'll find a clear posting of our different services, together with their related costs. We offer point by point depictions of each advertising, guaranteeing simply get it precisely what is included and what you'll be able anticipate in terms of deliverables.
+
+    In expansion to the base estimating, we too diagram any potential extra expenses or charges that will apply, such as surge orders or particular subject matter skill prerequisites. Our objective is to kill any shocks or covered up costs, permitting you to precisely budget for our administrations.
+
+    We recognize that each student's circumstance is special, and their scholastic needs may change. That's why we offer customized estimating choices for certain administrations, guaranteeing simply as it were pay for the bolster you require.
+
+    Our pricing structure is frequently checked on and overhauled to reflect advertise conditions and guarantee that we stay competitive whereas keeping up the most noteworthy guidelines of quality and ability.
 # pricing card
 pricing_card:
 # pricing table
