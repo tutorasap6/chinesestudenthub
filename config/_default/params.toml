@@ -58,8 +58,8 @@ link = "get-quote/"
 # Call to action
 [call_to_action]
 enable = true
-title = "Lorem ipsum dolor sit amt ita <br> Lorem ipsum."
-subtitle = "Lorem ipsum dolor sit amt ita hwrweet, conse ctetur adipsiscing elit. Purus, done rfec nunc eros."
+title = "Get Your Free Quote Today"
+subtitle = "To guarantee you get an exact and personalized fetched assess for our administrations, we energize you to utilize our “Get Price Quote” feature. Our group will work closely with you to get it the particular prerequisites of your online course or academic needs and give a customized cite based on the scope of work"
 button_label = "Get a Free Quote"
 button_link = "contact/"
 image = "images/cta.png"
