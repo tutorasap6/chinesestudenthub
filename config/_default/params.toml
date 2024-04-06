@@ -2,13 +2,13 @@
 # favicon
 favicon = "images/favicon.png"
 # logo
-logo = "images/logo.png"
-logo_dark = "images/logo-light.png"
+logo = "images/logo.webp"
+logo_dark = "images/logo.webp"
 # use `x` with logo_width, example: "100x"
 # Note: logo_width is not work with .svg file
 logo_width = "147x"
 # logo text will only show when logo is missing.
-logo_text = "delta"
+logo_text = "logo"
 # purgeCSS
 purge_css = false
 # content-gallery
