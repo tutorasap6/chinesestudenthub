@@ -61,7 +61,7 @@ export default defineConfig({
                 label: "Subtitle",
               },
               {
-                type: "string",
+                type: "rich-text",
                 name: "description",
                 label: "description",
               },
@@ -214,7 +214,7 @@ export default defineConfig({
                     label: "Counter Suffix",
                   },
                   {
-                    type: "string",
+                    type: "rich-text",
                     name: "content",
                     label: "Content",
                   },
@@ -277,7 +277,7 @@ export default defineConfig({
                 label: "Content Position",
               },
               {
-                type: "string",
+                type: "rich-text",
                 name: "content",
                 label: "Content",
               },
@@ -541,7 +541,7 @@ export default defineConfig({
                     "label": "Icon"
                   },
                   {
-                    "type": "string",
+                    "type": "rich-text",
                     "name": "content",
                     "label": "Content"
                   }
@@ -575,7 +575,7 @@ export default defineConfig({
             label: "Title",
           },
           {
-            type: "string",
+            type: "rich-text",
             name: "description",
             label: "Description",
           },
@@ -601,7 +601,7 @@ export default defineConfig({
                 label: "Title",
               },
               {
-                type: "string",
+                type: "rich-text",
                 name: "description",
                 label: "Description",
               },
@@ -739,7 +739,7 @@ export default defineConfig({
                 label: "Title",
               },
               {
-                type: "string",
+                type: "rich-text",
                 name: "description",
                 label: "Description",
               },
@@ -843,7 +843,7 @@ export default defineConfig({
                 label: "title",
               },
               {
-                type: "string",
+                type: "rich-text",
                 name: "description",
                 label: "Content",
               },
@@ -879,7 +879,7 @@ export default defineConfig({
                     label: "Title",
                   },
                   {
-                    type: "string",
+                    type: "rich-text",
                     name: "content",
                     label: "Content",
                   },
@@ -918,7 +918,7 @@ export default defineConfig({
                 label: "content_position",
               },
               {
-                type: "string",
+                type: "rich-text",
                 name: "content",
                 label: "content",
               },
@@ -1094,7 +1094,7 @@ export default defineConfig({
             label: "Title",
           },
           {
-            type: "string",
+            type: "rich-text",
             name: "description",
             label: "Description",
           },
@@ -1124,7 +1124,7 @@ export default defineConfig({
                 label: "Title",
               },
               {
-                type: "string",
+                type: "rich-text",
                 name: "description",
                 label: "Description",
               },
@@ -1170,7 +1170,7 @@ export default defineConfig({
                     label: "FAQ Title",
                   },
                   {
-                    type: "string",
+                    type: "rich-text",
                     name: "content",
                     label: "FAQ Content",
                   },
@@ -1369,7 +1369,7 @@ export default defineConfig({
                 label: "Subtitle",
               },
               {
-                type: "string",
+                type: "rich-text",
                 name: "title",
                 label: "Title",
               },
@@ -1703,7 +1703,7 @@ export default defineConfig({
                 label: "Title",
               },
               {
-                type: "string",
+                type: "rich-text",
                 name: "description",
                 label: "Description",
               },
