@@ -14,6 +14,7 @@
     {{ else }}
       {{ partial "essentials/style.html" . }}
     {{ end }}
+    
   </head>
 
   <body>
@@ -27,6 +28,21 @@
     </main>
 		<main class="pt-0">{{ block "main-sm" . }}{{ end }}</main>
 
+    <!-- Whatsapp and Call button  -->
+    <div class="call-btn">
+      <ul>
+        <li>
+          <a href="tel:+254768684655">
+            <img src= "/images/phone-solid.svg" alt="Phone" />
+          </a>
+        </li>
+        <li>
+          <a href="https://wa.me/+17654759090" target="_blank">
+            <img src='/images/whatsapp.svg' alt="WhatsApp" />
+          </a>
+        </li>
+      </ul>
+    </div>
 
     <!-- cache partial only in production -->
     {{ if hugo.IsProduction }}

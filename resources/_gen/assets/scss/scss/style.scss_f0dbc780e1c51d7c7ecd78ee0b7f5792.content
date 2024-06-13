@@ -9530,6 +9530,32 @@ h1,
   .modal-close-btn:hover {
     transform: scale(1.1); }
 
+.call-btn {
+  z-index: 9999 !important; }
+
+.call-btn a img {
+  width: 20px; }
+
+.call-btn ul {
+  list-style: none;
+  position: fixed;
+  left: -45px;
+  top: 40vh; }
+
+.call-btn ul li {
+  background-color: #26d367;
+  position: relative; }
+
+.call-btn ul li:first-child {
+  border-radius: 0px 12px 0px 0px; }
+
+.call-btn ul li:last-child {
+  border-radius: 0px 0px 12px 0px; }
+
+.call-btn ul li a {
+  display: inline-flex;
+  padding: 18px; }
+
 .img {
   max-width: 100%;
   height: auto; }
