@@ -182,7 +182,7 @@
           {{ with site.Params.navigation_button_two }}
           {{ if .enable }}
           <!-- signup btn -->
-          <a href="{{ .link | relLangURL }}" class="btn btn-primary">
+          <a href="{{ .link | relLangURL }}" target="_blank" class="btn btn-primary">
             {{ .label }} {{with .icon}}<i class="icon {{.}}"></i>{{end}}
           </a>
           {{ end }}

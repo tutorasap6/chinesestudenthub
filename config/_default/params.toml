@@ -52,8 +52,8 @@ icon = "far fa-user"
 
 [navigation_button_two]
 enable = true
-label = "Get a Free Quote"
-link = "get-quote/"
+label = "Order AI Free Paper Here"
+link = "https://devrysolutions.com/order-original-papers-here/"
 
 # Call to action
 [call_to_action]
