@@ -7,9 +7,8 @@ weight = 1
 
 [en.params]
 # copyright
-copyright = "Copyright by your company"
+copyright = "All Rights Reserved"
 
-# <a target="_blank" rel="noopener noreferrer" href="">
 
 ################################### French language #####################################
 [fr]
